@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Greek public procurement, queryable by AI agents.</strong><br>
-  858k acts · 60k entities · tenders, awards, contracts and payments linked into one process.
+  1.27M acts · 64k entities · 183k chains · tenders, awards, contracts and payments linked into one process.
 </p>
 
 <p align="center">

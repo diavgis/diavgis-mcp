@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Greek public procurement, queryable by AI agents.</strong><br>
-  1.27M acts · 64k entities · 183k chains · tenders, awards, contracts and payments linked into one process.
+  1.31M acts · 66k entities · 185k chains · tenders, awards, contracts and payments linked into one process.
 </p>
 
 <p align="center">
@@ -79,6 +79,7 @@ To raise rate limits, send an API key as a bearer token. Keys and their limits a
 
 | Tool | What it answers |
 |---|---|
+| `find_entity` | Resolve a buyer or supplier **name** to its ΑΦΜ — the first call when you only have a name |
 | `search_tenders` | Search acts across all three sources — by text, buyer, supplier, CPV, region, amount, date |
 | `expiring_contracts` | Contracts running **now** that expire within 0, 7, 30 or 180 days |
 | `get_act` | Full detail of one act by Διαύγεια ΑΔΑ or ΚΗΜΔΗΣ ΑΔΑΜ |
@@ -87,6 +88,7 @@ To raise rate limits, send an API key as a bearer token. Keys and their limits a
 | `rank_entities` | Top buyers or suppliers, by spend or by count |
 | `spend_by_cpv` | Committed value by CPV division, optionally for one year |
 | `entity_counterparties` | Who an entity actually transacts with — a buyer's top suppliers, or the reverse |
+| `get_quota` | Your plan, calls used and remaining, and the rate limits — free, not counted against the quota |
 
 The authoritative list is always the server itself:
 

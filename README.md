@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://diavgis.gr/icon-192.png" width="96" height="96" alt="Diavgis">
+  <img src="icon-192.png" width="96" height="96" alt="Diavgis">
 </p>
 
 <h1 align="center">Diavgis MCP Server</h1>
 
 <p align="center">
   <strong>Greek public procurement, queryable by AI agents.</strong><br>
-  1.31M acts · 66k entities · 185k chains · tenders, awards, contracts and payments linked into one process.
+  2.18M acts · 88k entities · 255k chains · tenders, awards, contracts and payments linked into one process.
 </p>
 
 <p align="center">

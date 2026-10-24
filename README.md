@@ -82,7 +82,7 @@ To raise rate limits, send an API key as a bearer token. Keys and their limits a
 | `find_entity` | Resolve a buyer or supplier **name** to its ΑΦΜ — the first call when you only have a name |
 | `search_tenders` | Search acts across all three sources — by text, buyer, supplier, CPV, region, amount, date |
 | `expiring_contracts` | Contracts running **now** that expire within 0, 7, 30 or 180 days |
-| `get_act` | Full detail of one act by Διαύγεια ΑΔΑ or ΚΗΜΔΗΣ ΑΔΑΜ |
+| `get_act` | Full detail of one act by Διαύγεια ΑΔΑ or ΚΗΜΔΗΣ ΑΔΑΜ, including the contractor `discount` (official from the document, or calculated) |
 | `get_entity` | Profile of a company or public body by 9-digit ΑΦΜ — name, role, spend/receipts |
 | `get_chain` | A reconstructed procurement lifecycle: the linked sequence tender → award → contract → payment |
 | `rank_entities` | Top buyers or suppliers, by spend or by count |

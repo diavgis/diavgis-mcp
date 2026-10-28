@@ -60,7 +60,12 @@ Add to your MCP client configuration:
 }
 ```
 
-To raise rate limits, send an API key as a bearer token. Keys and their limits are at
+Listing the tools needs no sign-in. When a tool is first called, your MCP client opens the Diavgis
+sign-in page (OAuth 2.1 with dynamic client registration and PKCE) and you approve access with a free
+Diavgis account. Calls count against that account's plan. You can revoke access at any time from
+<https://diavgis.gr/account> (Connected apps).
+
+Alternatively, send an API key as a bearer token. Keys and their limits are at
 <https://diavgis.gr/pricing>.
 
 ```json
